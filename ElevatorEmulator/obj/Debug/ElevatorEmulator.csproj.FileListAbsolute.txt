@@ -1,0 +1,13 @@
+F:\Free Projects\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe.config
+F:\Free Projects\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe
+F:\Free Projects\ElevatorEmulator\bin\Debug\ElevatorEmulator.pdb
+F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.csprojAssemblyReference.cache
+F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.Form1.resources
+F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.Properties.Resources.resources
+F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.csproj.GenerateResource.cache
+F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.csproj.CoreCompileInputs.cache
+F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.exe
+F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.pdb
+F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.SettingForm.resources
+F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.ConfigForm.resources
+F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.InitForm.resources
