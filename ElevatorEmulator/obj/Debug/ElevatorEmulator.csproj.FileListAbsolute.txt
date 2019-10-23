@@ -11,3 +11,6 @@ F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.pdb
 F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.SettingForm.resources
 F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.ConfigForm.resources
 F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.InitForm.resources
+C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe.config
+C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.exe
+C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.pdb
