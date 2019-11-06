@@ -10,7 +10,7 @@ using System.Windows;
 
 namespace ElevatorEmulator
 {
-    class ElevatorGraphics : Form
+    class OpenForm : Form
     {
         private Rectangle elevator;
         private Rectangle elevatorContainer;
@@ -27,7 +27,7 @@ namespace ElevatorEmulator
         public Rectangle ElevatorContainer { get => elevatorContainer; set => elevatorContainer = value; }
         public int ElevatorHeight { get => elevatorHeight; set => elevatorHeight = value; }
 
-        public ElevatorGraphics()
+        public OpenForm()
         {
             elevator = new Rectangle();
             elevator.Location = new Point(ELEVATOR_CONTAINER_LOCATION_X, 0 * ELEVATOR_CONTAINER_HEIGHT + ELEVATOR_CONTAINER_LOCATION_Y);
@@ -37,6 +37,18 @@ namespace ElevatorEmulator
             elevatorContainer = new Rectangle();
             elevatorContainer.Location = new Point(ELEVATOR_CONTAINER_LOCATION_X, ELEVATOR_CONTAINER_LOCATION_Y);
             elevatorContainer.Size = new Size(ELEVATOR_SIZE_X, ELEVATOR_CONTAINER_HEIGHT);
+
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // OpenForm
+            // 
+            this.ClientSize = new System.Drawing.Size(612, 423);
+            this.Name = "OpenForm";
+            this.ResumeLayout(false);
 
         }
     }
