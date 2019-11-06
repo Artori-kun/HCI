@@ -14,3 +14,17 @@ F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.InitForm.resources
 C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe.config
 C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.exe
 C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.pdb
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe.config
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.pdb
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.csprojAssemblyReference.cache
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.ConfigForm.resources
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.ElevatorGraphics.resources
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.Form1.resources
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.InitForm.resources
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.Properties.Resources.resources
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.SettingForm.resources
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.csproj.GenerateResource.cache
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.csproj.CoreCompileInputs.cache
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.exe
+F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.pdb
