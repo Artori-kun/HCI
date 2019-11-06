@@ -39,5 +39,17 @@ namespace ElevatorEmulator
             elevatorContainer.Size = new Size(ELEVATOR_SIZE_X, ELEVATOR_CONTAINER_HEIGHT);
 
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // ElevatorGraphics
+            // 
+            this.ClientSize = new System.Drawing.Size(550, 360);
+            this.Name = "ElevatorGraphics";
+            this.ResumeLayout(false);
+
+        }
     }
 }
