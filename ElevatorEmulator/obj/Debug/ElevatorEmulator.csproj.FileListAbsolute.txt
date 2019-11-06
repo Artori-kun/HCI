@@ -14,6 +14,7 @@ F:\Free Projects\ElevatorEmulator\obj\Debug\ElevatorEmulator.InitForm.resources
 C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe.config
 C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.exe
 C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.pdb
+<<<<<<< HEAD
 F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe.config
 F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe
 F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.pdb
@@ -28,3 +29,54 @@ F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\Elevato
 F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.csproj.CoreCompileInputs.cache
 F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.exe
 F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.pdb
+=======
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe.config
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.pdb
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.csprojResolveAssemblyReference.cache
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.ConfigForm.resources
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.Form1.resources
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.InitForm.resources
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.Properties.Resources.resources
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.SettingForm.resources
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.csproj.GenerateResource.Cache
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.exe
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.pdb
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.exe.licenses
+>>>>>>> 77677c887231734f5642e407b403a169e24be079
