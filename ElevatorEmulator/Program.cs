@@ -13,7 +13,6 @@ namespace ElevatorEmulator
         /// </summary>
         /// 
         public static InitForm init;
-        public static SettingForm st;
         [STAThread]
         static void Main()
         {
