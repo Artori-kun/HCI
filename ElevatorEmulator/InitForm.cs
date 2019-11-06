@@ -23,5 +23,19 @@ namespace ElevatorEmulator
         {
             config.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "DAT files ( *.dat )|*.dat|All files ( *.* )|*.*";
+            openFileDialog.Title = "Chọn file";
+
+            openFileDialog.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

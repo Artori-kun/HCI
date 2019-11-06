@@ -13,7 +13,7 @@ namespace ElevatorEmulator
 {
     public partial class Form1 : Form
     {
-        private ElevatorGraphics elevatorGraphics;
+        private OpenForm elevatorGraphics;
         SettingForm settingForm;
 
         public Form1()
@@ -23,7 +23,7 @@ namespace ElevatorEmulator
             InitializeComponent();
         }
 
-        internal ElevatorGraphics ElevatorGraphics { get => elevatorGraphics; set => elevatorGraphics = value; }
+        internal OpenForm ElevatorGraphics { get => elevatorGraphics; set => elevatorGraphics = value; }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
