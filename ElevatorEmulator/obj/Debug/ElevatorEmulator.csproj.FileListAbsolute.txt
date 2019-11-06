@@ -15,7 +15,6 @@ C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe.co
 C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.exe
 C:\Users\Phan\Desktop\HCI\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.pdb
 <<<<<<< HEAD
-<<<<<<< HEAD
 F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe.config
 F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.exe
 F:\4th Year Projects\HCI\ElevatorEmulator\HCI\ElevatorEmulator\bin\Debug\ElevatorEmulator.pdb
@@ -81,5 +80,3 @@ C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ja\DevExpress.
 C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\Users\Duy Minh\Documents\GitHub\HCI\ElevatorEmulator\obj\Debug\ElevatorEmulator.exe.licenses
 >>>>>>> 77677c887231734f5642e407b403a169e24be079
-=======
->>>>>>> parent of 77677c8... 2
