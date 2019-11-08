@@ -68,7 +68,9 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -108,8 +110,6 @@
             this.button9 = new System.Windows.Forms.Button();
             this.label25 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -117,7 +117,9 @@
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.groupBox8.SuspendLayout();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -129,8 +131,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -147,7 +147,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1164, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(1158, 30);
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -156,7 +156,7 @@
             this.settingMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("settingMenuItem.Image")));
             this.settingMenuItem.Name = "settingMenuItem";
             this.settingMenuItem.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.settingMenuItem.Size = new System.Drawing.Size(42, 25);
+            this.settingMenuItem.Size = new System.Drawing.Size(42, 26);
             this.settingMenuItem.Text = " ";
             this.settingMenuItem.Click += new System.EventHandler(this.settingMenuItem_Click);
             // 
@@ -166,36 +166,38 @@
             this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.ShortcutKeyDisplayString = "";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(42, 25);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(42, 26);
             this.toolStripMenuItem1.Text = " ";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem2.Image")));
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(42, 25);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(42, 26);
             this.toolStripMenuItem2.Text = " ";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem3.Image")));
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(42, 25);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(42, 26);
             this.toolStripMenuItem3.Text = " ";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem4.Image")));
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(42, 25);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(42, 26);
             this.toolStripMenuItem4.Text = " ";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.20588F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.79412F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 71F));
             this.tableLayoutPanel1.Controls.Add(this.floorButton7, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.floorButton9, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.floorButton8, 1, 3);
@@ -231,7 +233,7 @@
             this.floorButton7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton7.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton7.Location = new System.Drawing.Point(13, 141);
+            this.floorButton7.Location = new System.Drawing.Point(12, 141);
             this.floorButton7.Name = "floorButton7";
             this.floorButton7.Size = new System.Drawing.Size(45, 45);
             this.floorButton7.TabIndex = 0;
@@ -244,7 +246,7 @@
             this.floorButton9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton9.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton9.Location = new System.Drawing.Point(149, 141);
+            this.floorButton9.Location = new System.Drawing.Point(148, 141);
             this.floorButton9.Name = "floorButton9";
             this.floorButton9.Size = new System.Drawing.Size(45, 45);
             this.floorButton9.TabIndex = 2;
@@ -257,7 +259,7 @@
             this.floorButton8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton8.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton8.Location = new System.Drawing.Point(81, 141);
+            this.floorButton8.Location = new System.Drawing.Point(80, 141);
             this.floorButton8.Name = "floorButton8";
             this.floorButton8.Size = new System.Drawing.Size(45, 45);
             this.floorButton8.TabIndex = 1;
@@ -270,7 +272,7 @@
             this.floorButton4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton4.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton4.Location = new System.Drawing.Point(13, 193);
+            this.floorButton4.Location = new System.Drawing.Point(12, 193);
             this.floorButton4.Name = "floorButton4";
             this.floorButton4.Size = new System.Drawing.Size(45, 45);
             this.floorButton4.TabIndex = 3;
@@ -283,7 +285,7 @@
             this.floorButton5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton5.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton5.Location = new System.Drawing.Point(81, 193);
+            this.floorButton5.Location = new System.Drawing.Point(80, 193);
             this.floorButton5.Name = "floorButton5";
             this.floorButton5.Size = new System.Drawing.Size(45, 45);
             this.floorButton5.TabIndex = 4;
@@ -296,7 +298,7 @@
             this.floorButton6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton6.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton6.Location = new System.Drawing.Point(149, 193);
+            this.floorButton6.Location = new System.Drawing.Point(148, 193);
             this.floorButton6.Name = "floorButton6";
             this.floorButton6.Size = new System.Drawing.Size(45, 45);
             this.floorButton6.TabIndex = 5;
@@ -309,7 +311,7 @@
             this.floorButton1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton1.Location = new System.Drawing.Point(13, 246);
+            this.floorButton1.Location = new System.Drawing.Point(12, 246);
             this.floorButton1.Name = "floorButton1";
             this.floorButton1.Size = new System.Drawing.Size(45, 45);
             this.floorButton1.TabIndex = 6;
@@ -322,7 +324,7 @@
             this.floorButton2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton2.Location = new System.Drawing.Point(81, 246);
+            this.floorButton2.Location = new System.Drawing.Point(80, 246);
             this.floorButton2.Name = "floorButton2";
             this.floorButton2.Size = new System.Drawing.Size(45, 45);
             this.floorButton2.TabIndex = 7;
@@ -335,7 +337,7 @@
             this.floorButton3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton3.Location = new System.Drawing.Point(149, 246);
+            this.floorButton3.Location = new System.Drawing.Point(148, 246);
             this.floorButton3.Name = "floorButton3";
             this.floorButton3.Size = new System.Drawing.Size(45, 45);
             this.floorButton3.TabIndex = 8;
@@ -348,7 +350,7 @@
             this.openDoorButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.openDoorButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.openDoorButton.Font = new System.Drawing.Font("Gill Sans Ultra Bold Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.openDoorButton.Location = new System.Drawing.Point(13, 298);
+            this.openDoorButton.Location = new System.Drawing.Point(12, 298);
             this.openDoorButton.Name = "openDoorButton";
             this.openDoorButton.Size = new System.Drawing.Size(45, 45);
             this.openDoorButton.TabIndex = 9;
@@ -363,7 +365,7 @@
             this.closeDoorButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.closeDoorButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.closeDoorButton.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.closeDoorButton.Location = new System.Drawing.Point(81, 298);
+            this.closeDoorButton.Location = new System.Drawing.Point(80, 298);
             this.closeDoorButton.Name = "closeDoorButton";
             this.closeDoorButton.Size = new System.Drawing.Size(45, 45);
             this.closeDoorButton.TabIndex = 10;
@@ -377,7 +379,7 @@
             this.holdDoorButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.holdDoorButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.holdDoorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.holdDoorButton.Location = new System.Drawing.Point(149, 298);
+            this.holdDoorButton.Location = new System.Drawing.Point(148, 298);
             this.holdDoorButton.Name = "holdDoorButton";
             this.holdDoorButton.Size = new System.Drawing.Size(45, 45);
             this.holdDoorButton.TabIndex = 11;
@@ -390,7 +392,7 @@
             this.bellButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.bellButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.bellButton.Image = ((System.Drawing.Image)(resources.GetObject("bellButton.Image")));
-            this.bellButton.Location = new System.Drawing.Point(81, 350);
+            this.bellButton.Location = new System.Drawing.Point(80, 350);
             this.bellButton.Name = "bellButton";
             this.bellButton.Size = new System.Drawing.Size(45, 45);
             this.bellButton.TabIndex = 12;
@@ -402,7 +404,7 @@
             this.emergencyButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.emergencyButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.emergencyButton.Image = ((System.Drawing.Image)(resources.GetObject("emergencyButton.Image")));
-            this.emergencyButton.Location = new System.Drawing.Point(149, 350);
+            this.emergencyButton.Location = new System.Drawing.Point(148, 350);
             this.emergencyButton.Name = "emergencyButton";
             this.emergencyButton.Size = new System.Drawing.Size(45, 45);
             this.emergencyButton.TabIndex = 14;
@@ -417,7 +419,7 @@
             this.curFloorLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.curFloorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.curFloorLabel.ForeColor = System.Drawing.Color.Yellow;
-            this.curFloorLabel.Location = new System.Drawing.Point(74, 0);
+            this.curFloorLabel.Location = new System.Drawing.Point(73, 0);
             this.curFloorLabel.Name = "curFloorLabel";
             this.curFloorLabel.Size = new System.Drawing.Size(59, 69);
             this.curFloorLabel.TabIndex = 13;
@@ -431,7 +433,7 @@
             this.overloadLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.overloadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.overloadLabel.ForeColor = System.Drawing.Color.Gray;
-            this.overloadLabel.Location = new System.Drawing.Point(73, 87);
+            this.overloadLabel.Location = new System.Drawing.Point(72, 87);
             this.overloadLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.overloadLabel.Name = "overloadLabel";
             this.overloadLabel.Size = new System.Drawing.Size(61, 33);
@@ -543,9 +545,9 @@
             this.groupBox2.Controls.Add(this.label18);
             this.groupBox2.Controls.Add(this.tableLayoutPanel1);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(934, 44);
+            this.groupBox2.Location = new System.Drawing.Point(934, 33);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(218, 530);
+            this.groupBox2.Size = new System.Drawing.Size(218, 541);
             this.groupBox2.TabIndex = 35;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chọn tầng";
@@ -624,12 +626,24 @@
             this.groupBox4.Controls.Add(this.groupBox8);
             this.groupBox4.Controls.Add(this.groupBox5);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(236, 44);
+            this.groupBox4.Location = new System.Drawing.Point(236, 33);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(692, 530);
+            this.groupBox4.Size = new System.Drawing.Size(692, 541);
             this.groupBox4.TabIndex = 37;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Thang máy";
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.BackColor = System.Drawing.Color.White;
+            this.groupBox9.Controls.Add(this.pictureBox3);
+            this.groupBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox9.Location = new System.Drawing.Point(613, 21);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(73, 503);
+            this.groupBox9.TabIndex = 35;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Thang máy 2";
             // 
             // pictureBox3
             // 
@@ -641,6 +655,18 @@
             this.pictureBox3.Size = new System.Drawing.Size(63, 73);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.BackColor = System.Drawing.Color.White;
+            this.groupBox8.Controls.Add(this.pictureBox6);
+            this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox8.Location = new System.Drawing.Point(6, 21);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(76, 503);
+            this.groupBox8.TabIndex = 34;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Thang máy 1";
             // 
             // groupBox5
             // 
@@ -1046,9 +1072,9 @@
             this.groupBox6.Controls.Add(this.groupBox1);
             this.groupBox6.Controls.Add(this.label12);
             this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox6.Location = new System.Drawing.Point(12, 44);
+            this.groupBox6.Location = new System.Drawing.Point(12, 33);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(218, 313);
+            this.groupBox6.Size = new System.Drawing.Size(218, 324);
             this.groupBox6.TabIndex = 38;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Thông số";
@@ -1117,36 +1143,12 @@
             this.label17.TabIndex = 0;
             this.label17.Text = "Thang máy 1";
             // 
-            // groupBox8
-            // 
-            this.groupBox8.BackColor = System.Drawing.Color.White;
-            this.groupBox8.Controls.Add(this.pictureBox6);
-            this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox8.Location = new System.Drawing.Point(6, 21);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(76, 503);
-            this.groupBox8.TabIndex = 34;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Thang máy 1";
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.BackColor = System.Drawing.Color.White;
-            this.groupBox9.Controls.Add(this.pictureBox3);
-            this.groupBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox9.Location = new System.Drawing.Point(613, 21);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(73, 503);
-            this.groupBox9.TabIndex = 35;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Thang máy 2";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1164, 586);
+            this.ClientSize = new System.Drawing.Size(1158, 580);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox4);
@@ -1170,7 +1172,9 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.groupBox8.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -1185,8 +1189,6 @@
             this.groupBox6.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox9.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
