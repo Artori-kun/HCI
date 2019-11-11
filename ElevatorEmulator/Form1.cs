@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.Media;
 
 namespace ElevatorEmulator
 {
@@ -297,15 +298,26 @@ namespace ElevatorEmulator
 
         }
 
+        
+
+        SoundPlayer alarm1 = new SoundPlayer("./sound/alarm.wav");
+        SoundPlayer alarm2 = new SoundPlayer("./sound/alarm.wav");
+
         private void bellButton_Click(object sender, EventArgs e)
         {
-            if(comboBox1.Items[comboBox1.SelectedIndex].ToString() == "Thang máy 1")
+            if( comboBox1.SelectedIndex == -1)
             {
+                MessageBox.Show("Bạn chưa chọn thang máy cần thao tác !");
+            }
+            else if(comboBox1.Items[comboBox1.SelectedIndex].ToString() == "Thang máy 1")
+            {
+                alarm1.Play();
                 label17.ForeColor = Color.White;
                 label17.BackColor = Color.Red;
             }
             else if(comboBox1.Items[comboBox1.SelectedIndex].ToString() == "Thang máy 2")
             {
+                alarm2.Play();
                 label25.ForeColor = Color.White;
                 label25.BackColor = Color.Red;
             }
@@ -313,12 +325,14 @@ namespace ElevatorEmulator
 
         private void button9_Click(object sender, EventArgs e)
         {
+            alarm1.Stop();
             label17.ForeColor = Color.Red;
             label17.BackColor = Color.White;
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
+            alarm2.Stop();
             label25.ForeColor = Color.Red;
             label25.BackColor = Color.White;
         }
@@ -342,6 +356,11 @@ namespace ElevatorEmulator
         private void toolStripMenuItem4_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void closeDoorButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
