@@ -149,7 +149,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1544, 43);
+            this.menuStrip1.Size = new System.Drawing.Size(1545, 43);
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -197,9 +197,9 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.20588F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.79412F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 97F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.Controls.Add(this.floorButton7, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.floorButton9, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.floorButton8, 1, 3);
@@ -216,19 +216,19 @@
             this.tableLayoutPanel1.Controls.Add(this.emergencyButton, 2, 7);
             this.tableLayoutPanel1.Controls.Add(this.curFloorLabel, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.overloadLabel, 1, 2);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(7, 110);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(38, 98);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79.31035F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.68966F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 55.84415F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44.15585F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 63F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 64F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 65F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 64F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 64F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(276, 490);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(226, 515);
             this.tableLayoutPanel1.TabIndex = 22;
             // 
             // floorButton7
@@ -236,7 +236,7 @@
             this.floorButton7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton7.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton7.Location = new System.Drawing.Point(16, 174);
+            this.floorButton7.Location = new System.Drawing.Point(7, 199);
             this.floorButton7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.floorButton7.Name = "floorButton7";
             this.floorButton7.Size = new System.Drawing.Size(60, 55);
@@ -250,7 +250,7 @@
             this.floorButton9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton9.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton9.Location = new System.Drawing.Point(197, 174);
+            this.floorButton9.Location = new System.Drawing.Point(158, 199);
             this.floorButton9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.floorButton9.Name = "floorButton9";
             this.floorButton9.Size = new System.Drawing.Size(60, 55);
@@ -264,7 +264,7 @@
             this.floorButton8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton8.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton8.Location = new System.Drawing.Point(105, 174);
+            this.floorButton8.Location = new System.Drawing.Point(82, 199);
             this.floorButton8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.floorButton8.Name = "floorButton8";
             this.floorButton8.Size = new System.Drawing.Size(60, 55);
@@ -278,7 +278,7 @@
             this.floorButton4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton4.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton4.Location = new System.Drawing.Point(16, 238);
+            this.floorButton4.Location = new System.Drawing.Point(7, 263);
             this.floorButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.floorButton4.Name = "floorButton4";
             this.floorButton4.Size = new System.Drawing.Size(60, 55);
@@ -292,7 +292,7 @@
             this.floorButton5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton5.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton5.Location = new System.Drawing.Point(105, 238);
+            this.floorButton5.Location = new System.Drawing.Point(82, 263);
             this.floorButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.floorButton5.Name = "floorButton5";
             this.floorButton5.Size = new System.Drawing.Size(60, 55);
@@ -306,7 +306,7 @@
             this.floorButton6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton6.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton6.Location = new System.Drawing.Point(197, 238);
+            this.floorButton6.Location = new System.Drawing.Point(158, 263);
             this.floorButton6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.floorButton6.Name = "floorButton6";
             this.floorButton6.Size = new System.Drawing.Size(60, 55);
@@ -320,7 +320,7 @@
             this.floorButton1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton1.Location = new System.Drawing.Point(16, 303);
+            this.floorButton1.Location = new System.Drawing.Point(7, 328);
             this.floorButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.floorButton1.Name = "floorButton1";
             this.floorButton1.Size = new System.Drawing.Size(60, 55);
@@ -334,7 +334,7 @@
             this.floorButton2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton2.Location = new System.Drawing.Point(105, 303);
+            this.floorButton2.Location = new System.Drawing.Point(82, 328);
             this.floorButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.floorButton2.Name = "floorButton2";
             this.floorButton2.Size = new System.Drawing.Size(60, 55);
@@ -348,7 +348,7 @@
             this.floorButton3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.floorButton3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.floorButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.floorButton3.Location = new System.Drawing.Point(197, 303);
+            this.floorButton3.Location = new System.Drawing.Point(158, 328);
             this.floorButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.floorButton3.Name = "floorButton3";
             this.floorButton3.Size = new System.Drawing.Size(60, 55);
@@ -362,7 +362,7 @@
             this.openDoorButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.openDoorButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.openDoorButton.Font = new System.Drawing.Font("Gill Sans Ultra Bold Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.openDoorButton.Location = new System.Drawing.Point(16, 367);
+            this.openDoorButton.Location = new System.Drawing.Point(7, 392);
             this.openDoorButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.openDoorButton.Name = "openDoorButton";
             this.openDoorButton.Size = new System.Drawing.Size(60, 55);
@@ -378,7 +378,7 @@
             this.closeDoorButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.closeDoorButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.closeDoorButton.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.closeDoorButton.Location = new System.Drawing.Point(105, 367);
+            this.closeDoorButton.Location = new System.Drawing.Point(82, 392);
             this.closeDoorButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.closeDoorButton.Name = "closeDoorButton";
             this.closeDoorButton.Size = new System.Drawing.Size(60, 55);
@@ -394,7 +394,7 @@
             this.holdDoorButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.holdDoorButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.holdDoorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.holdDoorButton.Location = new System.Drawing.Point(197, 367);
+            this.holdDoorButton.Location = new System.Drawing.Point(158, 392);
             this.holdDoorButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.holdDoorButton.Name = "holdDoorButton";
             this.holdDoorButton.Size = new System.Drawing.Size(60, 55);
@@ -408,7 +408,7 @@
             this.bellButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.bellButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.bellButton.Image = ((System.Drawing.Image)(resources.GetObject("bellButton.Image")));
-            this.bellButton.Location = new System.Drawing.Point(105, 431);
+            this.bellButton.Location = new System.Drawing.Point(82, 456);
             this.bellButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bellButton.Name = "bellButton";
             this.bellButton.Size = new System.Drawing.Size(60, 55);
@@ -421,7 +421,7 @@
             this.emergencyButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.emergencyButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.emergencyButton.Image = ((System.Drawing.Image)(resources.GetObject("emergencyButton.Image")));
-            this.emergencyButton.Location = new System.Drawing.Point(197, 431);
+            this.emergencyButton.Location = new System.Drawing.Point(158, 456);
             this.emergencyButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.emergencyButton.Name = "emergencyButton";
             this.emergencyButton.Size = new System.Drawing.Size(60, 55);
@@ -437,10 +437,10 @@
             this.curFloorLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.curFloorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.curFloorLabel.ForeColor = System.Drawing.Color.Yellow;
-            this.curFloorLabel.Location = new System.Drawing.Point(97, 0);
+            this.curFloorLabel.Location = new System.Drawing.Point(79, 0);
             this.curFloorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.curFloorLabel.Name = "curFloorLabel";
-            this.curFloorLabel.Size = new System.Drawing.Size(77, 85);
+            this.curFloorLabel.Size = new System.Drawing.Size(67, 74);
             this.curFloorLabel.TabIndex = 13;
             this.curFloorLabel.Text = "1";
             this.curFloorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -452,9 +452,9 @@
             this.overloadLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.overloadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.overloadLabel.ForeColor = System.Drawing.Color.Gray;
-            this.overloadLabel.Location = new System.Drawing.Point(96, 107);
+            this.overloadLabel.Location = new System.Drawing.Point(78, 132);
             this.overloadLabel.Name = "overloadLabel";
-            this.overloadLabel.Size = new System.Drawing.Size(79, 41);
+            this.overloadLabel.Size = new System.Drawing.Size(69, 41);
             this.overloadLabel.TabIndex = 15;
             this.overloadLabel.Text = "OVERLOAD";
             this.overloadLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1211,8 +1211,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1544, 714);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(1545, 714);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.groupBox7);
